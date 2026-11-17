@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: conflicting-stack-change
+expected_outcome: |
+  Claude nhận ra yêu cầu dùng MongoDB mâu thuẫn với ADR-002 (SQLite là database duy nhất), dừng lại
+  trước khi code, giải thích quyết định đã chốt và ảnh hưởng của việc đổi, đưa ra phương án (gồm cả
+  giữ SQLite) và hỏi người dùng xác nhận. Không thêm MongoDB vào dependencies hay code.
+context:
+  scaffold_script: place-files.sh

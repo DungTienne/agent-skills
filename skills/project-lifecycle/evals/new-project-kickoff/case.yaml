@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: new-project-kickoff
+expected_outcome: |
+  Claude bắt đầu giai đoạn 1 (yêu cầu & nghiệp vụ): ghi lại những gì người dùng đã nói vào
+  docs/requirements.md (trạng thái Nháp), tạo CLAUDE.md và docs/progress.md, rồi hỏi một đợt
+  câu hỏi nghiệp vụ có trọng tâm (vài câu, không phải hàng chục). Chưa chọn tech stack, chưa viết code.

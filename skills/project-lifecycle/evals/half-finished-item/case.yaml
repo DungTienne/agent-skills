@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: half-finished-item
+expected_outcome: |
+  Claude nhận ra F04 đang dở (đã có setVisibility, thiếu service/route/test), làm tiếp phần còn thiếu mà không viết lại phần đã có, không tự chốt câu hỏi Q1 (GET có trả món ẩn không) mà nêu lại cho người dùng kèm phương án đề xuất, và cập nhật progress.md.
+context:
+  scaffold_script: place-files.sh

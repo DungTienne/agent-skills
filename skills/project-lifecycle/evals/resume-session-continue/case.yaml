@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: resume-session-continue
+expected_outcome: |
+  Claude đọc docs/progress.md, tóm tắt trạng thái dự án cho người dùng, rồi làm phần việc tiếp theo
+  trong backlog (F03 cập nhật giá món, PATCH /api/menu-items/:id/price) theo đúng kiến trúc 3 tầng
+  routes/service/repository, AppError, format response và quy ước test. Sau đó cập nhật
+  docs/progress.md (backlog, đã xong, nhật ký phiên) và docs/architecture.md (API mới).
+context:
+  scaffold_script: place-files.sh

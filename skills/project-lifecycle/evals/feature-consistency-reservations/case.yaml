@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: feature-consistency-reservations
+expected_outcome: |
+  Claude làm F05/F06 nhất quán với dự án: bảng reservations trong cùng SQLite, feature folder 3 tầng mount trong app.js, endpoint và response đúng conventions, kiểm tra trùng bàn trong khoảng 2 tiếng bằng AppError, test đầy đủ, không thêm ORM/thư viện validate, và cập nhật architecture.md + progress.md.
+context:
+  scaffold_script: place-files.sh
