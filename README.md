@@ -11,13 +11,13 @@ Mỗi phiên agent mới không nhớ gì về phiên trước, nên skill coi *
 ### Cài đặt
 
 ```bash
-npx skills add Neit2108/agent-skills@project-lifecycle
+npx skills add DungTienne/agent-skills@project-lifecycle
 ```
 
 Hoặc:
 
 ```bash
-npx skills add https://github.com/Neit2108/agent-skills --skill project-lifecycle
+npx skills add https://github.com/DungTienne/agent-skills --skill project-lifecycle
 ```
 
 Thêm `-g` để cài cho mọi dự án (user scope), `-y` để bỏ qua bước hỏi xác nhận.
