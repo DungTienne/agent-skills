@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: stack-skills-agent-browser
+expected_outcome: |
+  Stack đã chốt (Express + SQLite) nhưng chưa làm bước tìm skills. Claude tìm skill cho backend/frontend theo quy trình,
+  trình bày lựa chọn, và ở cuối luôn hỏi người dùng có muốn cài agent-browser để test trình duyệt không (dự án / global).
+  Không tự cài khi người dùng chưa đồng ý.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: plan-mode-before-code
+expected_outcome: |
+  Claude đọc tài liệu, vào Plan mode trước khi sửa code cho F03 (cập nhật giá món), dùng sub-agent model nhẹ
+  (hoặc dựa vào context sẵn có) để phân tích, hỏi người dùng các quyết định nghiệp vụ còn mở thay vì tự quyết,
+  và đưa ra plan chia task/đợt, hỏi chạy tuần tự hay song song. Chưa sửa file nào trong src/ khi plan chưa được duyệt.
+context:
+  scaffold_script: place-files.sh

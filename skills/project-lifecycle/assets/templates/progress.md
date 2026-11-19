@@ -13,9 +13,9 @@
 <Một-ba việc cụ thể phiên sau nên làm ngay.>
 
 ## Backlog (giai đoạn 5)
-| # | Phần việc | Chức năng | Trạng thái | Ghi chú |
-|---|---|---|---|---|
-| 1 | Khởi tạo project + lint/format config | - | Chưa làm | |
+| # | Phần việc | Chức năng | Trạng thái | Plan | Ghi chú |
+|---|---|---|---|---|---|
+| 1 | Khởi tạo project + lint/format config | - | Chưa làm | | |
 
 ## Đã xong
 ### <YYYY-MM-DD> - <Phần việc>

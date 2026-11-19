@@ -12,6 +12,8 @@
 ## Quy tắc bắt buộc
 - **Không tự ý thay đổi** tech stack, kiến trúc, cấu trúc thư mục, conventions, design tokens hay phạm vi chức năng đã chốt. Nếu thấy cần đổi hoặc yêu cầu mâu thuẫn với tài liệu: dừng lại, giải thích ảnh hưởng, hỏi người dùng. Nếu được đồng ý thì ghi ADR vào `docs/decisions.md`, cập nhật tài liệu, rồi mới sửa code.
 - Code theo đúng `docs/conventions.md` và theo pattern của code hiện có.
+- Mỗi phần việc ở giai đoạn 5: vào **Plan mode** trước khi sửa code, hỏi người dùng mọi quyết định nghiệp vụ (không tự quyết), chia plan thành task/đợt, chờ duyệt, lưu plan vào `docs/plans/NN-ten-phan-viec.md`, rồi giao sub-agent triển khai. Mặc định tuần tự; **chỉ chạy song song khi người dùng đồng ý**.
+- Chọn model cho sub-agent: research/phân tích → nhẹ (Haiku); triển khai → tầm trung (Sonnet); brainstorm, nghiệp vụ, lập plan → phiên chính (model hiện tại/mạnh).
 - Làm xong một phần việc thì **cập nhật tài liệu** (progress, và architecture/requirements/decisions/ui-design nếu bị ảnh hưởng). Tài liệu chưa cập nhật thì chưa tính là xong.
 - Trước khi kết thúc phiên, cập nhật "Nhật ký phiên" trong `docs/progress.md`, kèm bước tiếp theo cụ thể.
 
@@ -29,6 +31,7 @@
 
 ## Skills cho stack
 <Điền sau khi tìm bằng find-skills, vd: "Code backend: dùng skill `nestjs-best-practices`. Code frontend: dùng skill `react-best-practices`." Kèm lệnh cài lại nếu máy chưa có. Khi skill mâu thuẫn với `docs/conventions.md`, làm theo conventions.>
+<Test trình duyệt: agent-browser đã cài (project/global, lệnh cài) hoặc "không dùng".>
 
 ## Lệnh thường dùng
 <Điền khi có code: cài đặt, chạy dev, test, lint, build.>
@@ -40,3 +43,4 @@
 - `docs/ui-design.md` + `mockups/`: màn hình, design tokens, mockup HTML
 - `docs/progress.md`: backlog, đã xong, nhật ký phiên
 - `docs/decisions.md`: nhật ký quyết định (ADR)
+- `docs/plans/`: plan đã duyệt của từng phần việc giai đoạn 5

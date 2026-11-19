@@ -7,4 +7,6 @@ allowed_tools: [Read, Glob, Grep, Skill, Write, Edit, Bash]
 
 tiếp tục nhé
 
+Không cần trình plan chờ mình duyệt, cứ làm tuần tự luôn những phần không phụ thuộc câu hỏi còn mở.
+
 Input files: CLAUDE.md, docs/, src/, tests/, mockups/, package.json

@@ -25,6 +25,7 @@ Tìm bằng find-skills sau khi chốt stack. Tài liệu dự án luôn đượ
 |---|---|---|---|---|---|
 | Backend | | | | project / global | |
 | Frontend | | | | project / global | |
+| Test trình duyệt | agent-browser (hoặc "không dùng") | vercel-labs/agent-browser | | project / global | |
 <Nếu không có skill phù hợp hoặc người dùng không cài: ghi rõ ở đây để phiên sau khỏi tìm lại.>
 
 ## 2. Tổng quan kiến trúc
